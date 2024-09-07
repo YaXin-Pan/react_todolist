@@ -1,0 +1,30 @@
+.add{
+    margin-top: 20px;
+    background-color: black;
+    color: aliceblue;
+    border: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+}
+
+.list{
+    padding-top: 20px;
+}
+
+.item{
+    width: 100%;
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remove{
+    border: 0;
+    background-color: #FE0135;
+    color: aliceblue;
+    padding: 10px;
+}
