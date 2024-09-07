@@ -7,6 +7,7 @@ const List = ({listData}) =>{
     console.log('listData',listData)
     console.log("ABC")
     console.log("CDE")
+    console.log("EDF")
     return <div className="list">
        {
            listData.map(item => {
