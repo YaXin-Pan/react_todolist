@@ -5,6 +5,7 @@ import Item from "./Item"
 const List = ({listData}) =>{
     //to do detail
     console.log('listData',listData)
+    console.log("ABC")
     return <div className="list">
        {
            listData.map(item => {
